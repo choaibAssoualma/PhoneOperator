@@ -6,7 +6,7 @@ import java.util.*;
 public class MainClass {
 
 	public static void main(String[] args) throws IOException {
-		ArrayList<TOperator> m=FileParser.parse("PricesList.txt"); //input
+		ArrayList<TOperator> m=FileParser.parse("PricesList.txt"); //input : price lists file
 		String dial="44"; //dialed number
 
 		

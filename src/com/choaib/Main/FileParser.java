@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class FileParser {
-
+	//parse the input file and return a list  of the operators 
 	public static ArrayList<TOperator> parse(String filePath) {
 	    ArrayList<TOperator> tl=new ArrayList<TOperator>();
 	    BufferedReader br = null;
